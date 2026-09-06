@@ -1,0 +1,294 @@
+/* head section oooooo*/
+.logo-head {
+    text-align: center;
+}
+
+.logo-image {
+    width: 60vw;
+    height: 60vh;
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+* {
+
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    line-height: 1.6;
+
+}
+
+a {
+    text-decoration: none;
+    color: blueviolet;
+}
+
+.site-header {
+
+    background-color: rgb(243, 235, 223);
+    height: 100vh;
+    border-top: 1px solid rgb(177, 163, 163);
+    min-height: 100vh;
+    height: 600px;
+
+}
+
+#work {
+    border-top: 1px solid rgb(177, 163, 163);
+    background-color: white;
+}
+
+#experience {
+    border-top: 1px solid rgb(177, 163, 163);
+    background-color: rgb(243, 235, 223);
+    border-bottom: 1px solid rgb(177, 163, 163);
+
+}
+
+#skills {
+    background-color: #fff;
+    border-bottom: 1px solid rgb(177, 163, 163);
+}
+#contact {
+    border-top:  1px solid rgb(177, 163, 163) ;
+}
+.projects {
+    text-align: center;
+}
+
+.nav-bar {
+    text-align: right;
+
+    font-size: large;
+}
+
+nav a {
+    padding-left: 25px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: orange;
+}
+
+.trademark {
+    font-style: italic;
+}
+
+.title {
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.work-button {
+    border: 2px solid purple;
+    margin-right: 30px;
+    padding: 10px;
+    border-radius: 10px;
+    color: purple;
+    margin-bottom: 20px;
+}
+
+.work-button:hover {
+    color: white;
+    background-color: purple;
+    border: 2px solid black;
+}
+
+.work-button:active {
+    color: red;
+}
+
+.contact-button {
+    margin-left: 30px;
+    color: white;
+    background-color: purple;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid purple;
+}
+
+.contact-button:hover {
+    color: purple;
+    border: 2px solid blue;
+    background-color: orange;
+}
+
+.art {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.name {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-weight: bolder;
+}
+
+.lining {
+    width: 30px;
+    height: 7px;
+    min-height: 7px;
+    color: orange;
+    background-color: orange;
+    border-radius: 20%;
+    margin-left: 15%;
+}
+
+
+
+.project-card {
+    background: rgb(243, 235, 223);
+    border: 1px solid #e4ddcd;
+    border-radius: 25px;
+    padding: 26px 28px;
+    margin-bottom: 20px;
+    max-width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.project-tag {
+    background-color: rgb(120, 120, 218);
+    width: fit-content;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Fraunces', Georgia, serif;
+    font-weight: bolder;
+
+}
+
+h2 {
+    font-size: 2em;
+    line-height: normal;
+}
+
+.name {
+    line-height: 0.5;
+}
+
+h3 {
+    font-size: 1.4em;
+}
+
+ol {
+    list-style: disc;
+}
+
+.wraped {
+    padding-left: 10%;
+}
+
+ul .skill-list {
+    list-style-type: none;
+}
+
+
+
+.skill-list>li {
+    border: 1px solid black;
+
+    background-color: rgb(243, 235, 223);
+    margin-bottom: 7px;
+    max-width: 400px;
+    margin-left: 10%;
+}
+
+.section {
+    padding-left: 15%;
+}
+
+.email,
+.number,
+.linkedin {
+    color: blue;
+    font-size: 18px;
+
+}
+
+.email {
+    padding: 5px 10px;
+    border: 2px solid blue;
+    border-radius: 10px;
+}
+
+.email:hover {
+    color: white;
+    border-radius: 10px;
+    background-color: blue;
+    border: 2px solid black;
+}
+
+.email:active {
+    color: red;
+}
+
+.number {
+    padding: 5px 10px;
+    border: 2px solid blue;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+
+.number:hover {
+    color: white;
+    border-radius: 10px;
+    background-color: blue;
+    border: 2px solid black;
+}
+
+.number:active {
+    color: red;
+}
+
+.linkedin {
+    margin-left: 20px;
+    padding: 5px 10px;
+    border: 2px solid blue;
+    max-width: fit-content;
+    border-radius: 10px;
+}
+
+.linkedin:hover {
+    color: white;
+    border-radius: 10px;
+    background-color: blue;
+    border: 2px solid black;
+}
+
+.linkedin:active {
+    color: red;
+}
+
+.university {
+    padding-left: 10%;
+}
+
+.certificate {
+    padding-left: 10%;
+}
+.certification , .educating {
+    display: inline-block;
+}
+.certification {
+   margin-left: 30vw; 
+}
+.education {
+    width:100%;
+     background-color: rgb(243, 235, 223);
+}
+footer {
+    text-align: center;
+}
